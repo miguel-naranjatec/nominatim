@@ -1,6 +1,6 @@
 {
     "name": "banzee/nominatim",
-    "description": "TODO",
+    "description": "Helper for nominatim",
     "license": "MIT",
     "version": "1.0.0",
     "keywords": [
