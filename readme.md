@@ -2,7 +2,10 @@
 
 ## Usage
 
+### Require
 `composer require  miguel-naranjatec/nominatim --dev`
+
+### Search
 `dd(new Nominatim)->search('Madrid');`
 
 ## Credits
