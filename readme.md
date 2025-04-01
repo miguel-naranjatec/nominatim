@@ -3,7 +3,7 @@
 ## Usage
 
 ### Require
-`composer require  miguel-naranjatec/nominatim --dev`
+`composer require  miguel-naranjatec/nominatim --prefer-source`
 
 ### Search
 `dd(new Nominatim)->search('Madrid');`
