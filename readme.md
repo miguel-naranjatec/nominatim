@@ -3,8 +3,15 @@
 ## Usage
 
 ### Require
-
-`composer require  miguel-naranjatec/nominatim --prefer-source`
+`
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/miguel-naranjatec/nominatim"
+    }
+],`
+`composer require  banzee/nominatim --prefer-source`
+`composer update banzee/nominatim --prefer-source`
 
 ### Search
 
