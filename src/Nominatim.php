@@ -16,11 +16,11 @@ class Nominatim
         return "{$app_name} - Banzee Nominatim";
     }
 
-    public function search(string $address): array
+    public function search(string $address, bool $polygon = false): array
     { 
         $response = Http::withHeaders(['User-Agent' => $this->getUserAgent()])->get("https://nominatim.openstreetmap.org/search.php", [
             'q' => $address,
-            'polygon_geojson' => 1,
+            'polygon_geojson' => $polygon,
             'format' => 'json'
         ]);
         $data = $response->json();
